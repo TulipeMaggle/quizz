@@ -1,0 +1,47 @@
+input,
+textarea {
+	outline: none;
+	border: 2px solid grey;
+	resize: none;
+}
+
+/* La plus grosse boite */
+.create-boite {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+/* Titre */
+.title {
+	text-decoration: underline;
+}
+
+/* Partie du bas */
+.bottom {
+	background-color: red;
+	width: 100%;
+	display: flex;
+}
+
+/* Partie de gauche */
+.left-part {
+	background-color: yellow;
+	width: 40%;
+	padding: 8px;
+}
+
+/* Inputs */
+.input {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Partie de droite */
+
+.right-part {
+	background-color: aqua;
+	width: 60%;
+	padding: 8px;
+}

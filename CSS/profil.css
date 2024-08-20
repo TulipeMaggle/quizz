@@ -1,0 +1,65 @@
+/* Conteneur des deux parties */
+.conteneur {
+	display: flex;
+	gap: 3%;
+}
+
+/* Partie de gauche */
+.left-side {
+	background-color: var(--color-primary);
+	width: 40%;
+	padding: 16px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+/* Boite inputs */
+.left-form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+/* Info - bouton case */
+.edit-case {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* Bouton crayon */
+.informations-edit-button {
+	color: rgb(27, 151, 213);
+	cursor: pointer;
+}
+
+/* Inputs */
+.informations-input {
+	font-size: 18px;
+}
+
+/* Bouton envoyer */
+#enregistrer {
+	padding: 8px;
+}
+
+/* Partie de droite */
+.right-side {
+	background-color: var(--color-primary);
+	width: 50%;
+	padding: 16px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+/* Boite des quizz */
+.boite {
+	background-color: rgb(242, 229, 229);
+	padding: 24px;
+	border-radius: 8px;
+}
